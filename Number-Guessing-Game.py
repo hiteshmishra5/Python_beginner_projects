@@ -6,12 +6,12 @@ count += 1
 guess = int(input('Enter a number between 1-50: '))
 while n != guess and count < 5:
     if guess < n:
-        print("Sorry, Guess again. Too Low")
+        print("Sorry, Guess again. Number is Low")
         count += 1
-        print(f'You have {6 - count} attempt left')
+        print(f'You have {6 - count} attempts left')
         guess = int(input('Enter a number: '))
     elif guess > n:
-        print("Sorry, Guess again. Too High")
+        print("Sorry, Guess again. Number is High")
         count += 1
         print(f'You have {6 - count} attempt left')
         guess = int(input('Enter a number: '))
