@@ -23,10 +23,10 @@ if count == 5 and n != guess:
     print("The number is:", n)
 elif count <= 3:
     print("You are Truly a Legend")
-    print(f'You guessed it in just {count} attempt')
+    print(f'You guessed it in just {count} attempts')
 else:
     print("You guessed it right!!")
-    print(f'You guessed it in just {count} attempt')
+    print(f'You guessed it in {count} attempts')
 
 
 
